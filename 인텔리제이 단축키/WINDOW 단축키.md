@@ -130,6 +130,47 @@ ctrl + E
 ## 주요단축키
 ● Help → Keymap Reference
 
+## 테스트 코드생성
+● alt + enter
+
+## 테스트 코드 이동
+● ctrl + shift + T
+
+## 테스트 코드
+● 선택된 테스트실행 : ctrl + shift + F10
+
+● 정지 : Ctrl + F2 
+
+## 리팩토링
+● 클래스 이동 : F6
+
+● 타입변경 : ctrl + shift + F6
+
+● 시그니처 변경, 이름 변경 : ctrl + F6
+
+● ctrl + alt + shift + T(전체 리팩토링 기능)
+
+## 디버깅
+● 브레이크 포인트 설정 : ctrl + F8
+
+● 브레이크 포인트 보기 : ctrl + shift + F8
+
+● 디버깅 모드 실행 : shift + F9
+
+● 에디터 실행 : 마우스로 실행
+
+● step into : F8
+
+● step over : F8
+
+● Resume Program(다음 브레이크 포인트로 이동) : F9
+
+## GIT
+● Ctrl + V
+
+## 커스텀 단축키
+● preference → key map (split)
+
 
 
 
