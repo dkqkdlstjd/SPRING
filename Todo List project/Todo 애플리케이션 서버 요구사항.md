@@ -7,9 +7,53 @@
 5. todo 리스트 목록 중 특정 아이템을 삭제
 6. todo 리스트 전체 목록을 삭제
 
-
-|method|endpoint|기능|request|response|
-|------|---|---|---|---|
-|POST|/|todo 아이템 추가|{"title": "자료구조 공부하기"}|{ "id": 17,"title": "자료구조 공부하기","order": 0,"completed": false,"url": "http://localhost:8080/17"}|
-|테스트1|테스트2|테스트3|테스트3|테스트3|
-|테스트1|테스트2|테스트3|테스트3|테스트3|
+method	endpoint	기능	request	response
+POST	/	todo 아이템 추가	"{
+    ""title"": ""자료구조 공부하기""
+}"	"{
+    ""id"": 17,
+    ""title"": ""자료구조 공부하기"",
+    ""order"": 0,
+    ""completed"": false,
+    ""url"": ""http://localhost:8080/17""
+}"
+GET	/	전체 todo 리스트 조회	-	"[
+    {
+        ""id"": 1,
+        ""title"": ""자바 기초 공부하기"",
+        ""order"": 0,
+        ""completed"": false,
+        ""url"": ""http://localhost:8080/1""
+    },
+    {
+        ""id"": 2,
+        ""title"": ""알고리즘 공부하기"",
+        ""order"": 0,
+        ""completed"": false,
+        ""url"": ""http://localhost:8080/2""
+    },  ... 
+]"
+GET	/{:id}	todo 아이템 조회	-	"{
+    ""id"": 17,
+    ""title"": ""자료구조 공부하기"",
+    ""order"": 0,
+    ""completed"": false,
+    ""url"": ""http://localhost:8080/17""
+}"
+PATCH	/{:id}	todo 아이템 수정	"{
+    ""title"": ""반복문 공부하기""
+}"	"{
+    ""id"": 1,
+    ""title"": ""반복문 공부하기"",
+    ""order"": 0,
+    ""completed"": false,
+    ""url"": ""http://localhost:8080/1""
+}"
+DELETE	/	전체 todo 리스트 삭제		200
+DELETE	/{:id}	todo 아이템 삭제		200
+				
+				
+https://www.todobackend.com/				
+> implement > series of .. 				
+https://www.todobackend.com/specs/index.html				
+https://www.todobackend.com/client/index.html?http://todobackend-aiohttp.herokuapp.com				
