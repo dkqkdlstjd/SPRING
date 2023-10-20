@@ -10,8 +10,12 @@
 
 |method|endpoint|기능|request|response|
 |------|---|---|---|---|
-|POST|/|todo 아이템 추가|{
-    "title": "자료구조 공부하기"
-}|테스트3|
+|POST|/|todo 아이템 추가|{"title": "자료구조 공부하기"}|{
+    "id": 17,
+    "title": "자료구조 공부하기",
+    "order": 0,
+    "completed": false,
+    "url": "http://localhost:8080/17"
+}|
 |테스트1|테스트2|테스트3|테스트3|테스트3|
 |테스트1|테스트2|테스트3|테스트3|테스트3|
