@@ -56,7 +56,81 @@
 ● F3, shift + F3
 
 ## 경로내 검색
-● ctrl+shif+f(모든파일 검색)
+● ctrl+shif+f
+
+## 전체 검색
+● shift 두번(모든 파일 및 인텔리제이 지원기능 모두포함)
+
+## 최근 파일 열기(가장 많이 사용)
+ctrl + E
+
+## 라이브 템플릿
+● psvm(public static void main)
+
+● sout(system.out.println())
+
+## 퀵픽스
+● alt + enter
+
+## 코드 이슈 별로 이동
+● F2, Shift+F2(이전)
+
+## Import 최적화
+● ctrl + alt + O(필요없는 import 제거)
+
+## 코드생성
+● alt + insert(getter, setter)
+
+## 메소드 자동완성
+● override : ctrl + o
+
+● implement : ctrl + I
+
+## 터미널 창
+● Alt + F12
+
+## 구문 완성
+● Shift + ctrl + enter
+
+## 대체하기(변수명을 다른이름으로 대체)
+● ctrl + R(파일 내 대체)
+● ctrl + shift + R(경로 내 대체)
+
+## Run anything
+● ctrl 두번
+
+## 실행
+● 에디터 실행 : ctrl + shift + F10
+
+● 실행 : shift + F10
+
+## 종료
+● ctrl + F2
+
+## 라인수정
+● 라인복사 : ctrl + D
+
+● 라인삭제 : ctrl + y
+
+## 파라미터 정보(중요)
+● ctrl + p
+
+## Quick Definition(파라미터 선언부 미리보기)
+● ctrl + shift + I
+
+## Quick Document(상세한 내용)
+● ctrl + Q
+
+## Java Doc
+● 도큐먼트를 주석으로 설명 (메소드위에서 주석생성 후 엔터 자동생성)
+
+## 기능 찾기(단축키 검색 찾기)
+● shift + ctrl + A
+
+## 주요단축키
+● Help → Keymap Reference
+
+
 
 
 
